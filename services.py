@@ -19,6 +19,9 @@
 
 
 from html import escape
+from gramps.gen.db import DbTxn
+from gramps.gen.lib.attrtype import AttributeType
+from gramps.gen.lib.attribute import Attribute
 import json
 
 

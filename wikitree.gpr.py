@@ -12,6 +12,6 @@ register(GRAMPLET,
          detached_height = 500,
          gramplet = 'WikiTree',
          gramplet_title=_("WikiTree"),
-         help_url="5.1_Addons#Addon_List",
+         help_url="5.2_Addons#Addon_List",
          navtypes=['Person']
          )
