@@ -1,10 +1,12 @@
 # File: wikitree.gpr.py
+from gramps.version import major_version
+
 register(GRAMPLET,
          id="WikiTree",
          name=_("WikiTree"),
          description = _("WikiTree Integration"),
          version="0.1.0",
-         gramps_target_version="5.2",
+         gramps_target_version=major_version,
          status = STABLE,
          fname="wikitree.py",
          height = 50,
